@@ -8,12 +8,14 @@ workflows:
     environment:
       ios_signing:
         distribution_type: app_store
-        bundle_identifier: com.crazycutchwater.harryhamars
+        bundle_identifier: com.evaldoosso.crazycutchwater
+
       vars:
-        BUNDLE_ID: com.crazycutchwater.harryhamars
+        BUNDLE_ID: com.evaldoosso.crazycutchwater
+
         XCODE_PROJECT: "Productivity.xcodeproj"
         XCODE_SCHEME: "Productivity"
-        APP_STORE_APPLE_ID: 6759092662
+        APP_STORE_APPLE_ID: 6759254005
       xcode: latest
     scripts:
       - name: Set up provisioning profiles settings on Xcode project
